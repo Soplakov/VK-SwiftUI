@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		65E5C1A52916E7AA0041B432 /* VK_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E5C1A42916E7AA0041B432 /* VK_SwiftUIApp.swift */; };
-		65E5C1A72916E7AA0041B432 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E5C1A62916E7AA0041B432 /* ContentView.swift */; };
+		65E5C1A72916E7AA0041B432 /* LoginContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E5C1A62916E7AA0041B432 /* LoginContentView.swift */; };
 		65E5C1A92916E7AB0041B432 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65E5C1A82916E7AB0041B432 /* Assets.xcassets */; };
 		65E5C1AC2916E7AB0041B432 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65E5C1AB2916E7AB0041B432 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		65E5C1A12916E7AA0041B432 /* VK-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VK-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65E5C1A42916E7AA0041B432 /* VK_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VK_SwiftUIApp.swift; sourceTree = "<group>"; };
-		65E5C1A62916E7AA0041B432 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		65E5C1A62916E7AA0041B432 /* LoginContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginContentView.swift; sourceTree = "<group>"; };
 		65E5C1A82916E7AB0041B432 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65E5C1AB2916E7AB0041B432 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				65E5C1A42916E7AA0041B432 /* VK_SwiftUIApp.swift */,
-				65E5C1A62916E7AA0041B432 /* ContentView.swift */,
+				65E5C1A62916E7AA0041B432 /* LoginContentView.swift */,
 				65E5C1A82916E7AB0041B432 /* Assets.xcassets */,
 				65E5C1AA2916E7AB0041B432 /* Preview Content */,
 			);
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65E5C1A72916E7AA0041B432 /* ContentView.swift in Sources */,
+				65E5C1A72916E7AA0041B432 /* LoginContentView.swift in Sources */,
 				65E5C1A52916E7AA0041B432 /* VK_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
