@@ -32,11 +32,11 @@ struct LoginContentView: View {
                     
                     Image("vk")
                         .resizable()
-                        .frame(width: 100, height: 100, alignment: .center)
+                        .frame(width: 98, height: 98, alignment: .center)
                     Text("ВКонтакте")
                         .font(.largeTitle)
                         .bold()
-                        .padding(.top, 32)
+                        .padding(.top, 34)
                 }
                 
                 VStack {
