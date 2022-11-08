@@ -12,13 +12,17 @@ struct LoginContentView: View {
     @State private var login = ""
     @State private var password = ""
     
+    @State private var shouldShowLogo: Bool = true
+    
     
     
     
     var body: some View {
         
         VStack {
-            
+            Image("vk")
+                .resizable()
+                .frame(width: 100, height: 100, alignment: .center)
         Text("ВКонтакте")
                 .font(.largeTitle)
                 .bold()
@@ -55,8 +59,7 @@ struct LoginContentView: View {
     }
 }
     
-    }
-}
+
 
 struct LoginContentView_Previews: PreviewProvider {
     static var previews: some View {
