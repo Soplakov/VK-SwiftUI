@@ -19,6 +19,8 @@ struct LoginContentView: View {
     
     var body: some View {
         
+        ScrollView() {
+        // Оборачиваем Stack в ScrollView что бы он скролился
         VStack {
             Image("vk")
                 .resizable()
@@ -57,6 +59,7 @@ struct LoginContentView: View {
         // Кнопка Войти будет недоступна если одно из полей будет пустое
         .disabled(login.isEmpty || password.isEmpty)
     }
+}
 }
     
 
