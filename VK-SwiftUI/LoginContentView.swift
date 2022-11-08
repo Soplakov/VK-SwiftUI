@@ -42,7 +42,19 @@ struct LoginContentView: View {
                     .frame(maxWidth: 150)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
             }
+        } .frame(maxWidth: 250)
+            .padding(.top, 50)
+        
+        Button(action: { print("Hello") }) {
+            Text("Войти")
         }
+        .padding(.top, 50)
+        .padding(.bottom, 20)
+        // Кнопка Войти будет недоступна если одно из полей будет пустое
+        .disabled(login.isEmpty || password.isEmpty)
+    }
+}
+    
     }
 }
 
