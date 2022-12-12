@@ -8,20 +8,39 @@
 import SwiftUI
 
 struct FriendsView: View {
+    @State var friends: [Friend] = MySession.shared.friends
     var body: some View {
-        FriendCell()
+        NavigationView {
+            List(friends) { friend in
+                FriendCell(friend: friend)
+            }.navigationBarTitle(Text("Друзья"))
+            
+        }
     }
 }
 
 struct FriendCell: View {
+    let friend: Friend
     var body: some View {
         HStack {
-            Image("Scorp_1")
-                .resizable()
-                .frame(width: 80, height: 80)
-                .background(Circle().fill(Color.white).shadow(radius: 5))
-            Text("Имя друга")
-                .padding(10)
+            ImageBuilder {
+                Image(uiImage: friend.photo50)
+//            Image("Scorp_1")
+//                .resizable()
+//                .frame(width: 80, height: 80)
+//                .background(Circle().fill(Color.white).shadow(radius: 5))
+            }
+            VStack(alignment: .leading) {
+                Text("\(friend.firstName) \(friend.lastName)")
+                    .font(.subheadline)
+                    .foregroundColor(.black)
+                Text("\(friend.id)")
+                    .font(.subheadline)
+                    .foregroundColor(.gray)
+            }.padding(.leading, 30)
+                
+//            Text("Имя друга")
+//                .padding(10)
         }
     }
 }

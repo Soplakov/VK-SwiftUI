@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		656BF91F29474DF800DE7FBD /* MySession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656BF91E29474DF800DE7FBD /* MySession.swift */; };
+		656BF92129474E3E00DE7FBD /* FriendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656BF92029474E3E00DE7FBD /* FriendModel.swift */; };
+		656BF92329474E7300DE7FBD /* GroupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656BF92229474E7300DE7FBD /* GroupModel.swift */; };
+		656BF92529474EC900DE7FBD /* ImageModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656BF92429474EC900DE7FBD /* ImageModifier.swift */; };
+		656BF92729474EF800DE7FBD /* ImageBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656BF92629474EF800DE7FBD /* ImageBuilder.swift */; };
 		65722A4D2938CDDC0003FE46 /* FriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65722A4C2938CDDC0003FE46 /* FriendsView.swift */; };
 		65722A4F2938D56C0003FE46 /* GroupsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65722A4E2938D56C0003FE46 /* GroupsView.swift */; };
 		65E5C1A52916E7AA0041B432 /* VK_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E5C1A42916E7AA0041B432 /* VK_SwiftUIApp.swift */; };
@@ -16,6 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		656BF91E29474DF800DE7FBD /* MySession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySession.swift; sourceTree = "<group>"; };
+		656BF92029474E3E00DE7FBD /* FriendModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendModel.swift; sourceTree = "<group>"; };
+		656BF92229474E7300DE7FBD /* GroupModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupModel.swift; sourceTree = "<group>"; };
+		656BF92429474EC900DE7FBD /* ImageModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModifier.swift; sourceTree = "<group>"; };
+		656BF92629474EF800DE7FBD /* ImageBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageBuilder.swift; sourceTree = "<group>"; };
 		65722A4C2938CDDC0003FE46 /* FriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsView.swift; sourceTree = "<group>"; };
 		65722A4E2938D56C0003FE46 /* GroupsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsView.swift; sourceTree = "<group>"; };
 		65E5C1A12916E7AA0041B432 /* VK-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VK-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,6 +49,7 @@
 		656BF91829474D4900DE7FBD /* Session */ = {
 			isa = PBXGroup;
 			children = (
+				656BF91E29474DF800DE7FBD /* MySession.swift */,
 			);
 			path = Session;
 			sourceTree = "<group>";
@@ -46,6 +57,8 @@
 		656BF91B29474D7F00DE7FBD /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				656BF92029474E3E00DE7FBD /* FriendModel.swift */,
+				656BF92229474E7300DE7FBD /* GroupModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -53,6 +66,8 @@
 		656BF91D29474DA200DE7FBD /* Modifier */ = {
 			isa = PBXGroup;
 			children = (
+				656BF92429474EC900DE7FBD /* ImageModifier.swift */,
+				656BF92629474EF800DE7FBD /* ImageBuilder.swift */,
 			);
 			path = Modifier;
 			sourceTree = "<group>";
@@ -167,7 +182,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				656BF92529474EC900DE7FBD /* ImageModifier.swift in Sources */,
 				65722A4D2938CDDC0003FE46 /* FriendsView.swift in Sources */,
+				656BF92329474E7300DE7FBD /* GroupModel.swift in Sources */,
+				656BF92129474E3E00DE7FBD /* FriendModel.swift in Sources */,
+				656BF92729474EF800DE7FBD /* ImageBuilder.swift in Sources */,
+				656BF91F29474DF800DE7FBD /* MySession.swift in Sources */,
 				65E5C1A72916E7AA0041B432 /* LoginContentView.swift in Sources */,
 				65722A4F2938D56C0003FE46 /* GroupsView.swift in Sources */,
 				65E5C1A52916E7AA0041B432 /* VK_SwiftUIApp.swift in Sources */,
