@@ -36,6 +36,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		656BF91829474D4900DE7FBD /* Session */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Session;
+			sourceTree = "<group>";
+		};
+		656BF91B29474D7F00DE7FBD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		656BF91D29474DA200DE7FBD /* Modifier */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modifier;
+			sourceTree = "<group>";
+		};
 		65E5C1982916E7AA0041B432 = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +78,9 @@
 			children = (
 				65E5C1A42916E7AA0041B432 /* VK_SwiftUIApp.swift */,
 				65E5C1A62916E7AA0041B432 /* LoginContentView.swift */,
+				656BF91D29474DA200DE7FBD /* Modifier */,
+				656BF91B29474D7F00DE7FBD /* Model */,
+				656BF91829474D4900DE7FBD /* Session */,
 				65722A4C2938CDDC0003FE46 /* FriendsView.swift */,
 				65722A4E2938D56C0003FE46 /* GroupsView.swift */,
 				65E5C1A82916E7AB0041B432 /* Assets.xcassets */,
